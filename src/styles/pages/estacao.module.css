@@ -1,0 +1,150 @@
+
+.homeTittle{
+    text-align: center;
+    color: #ea8685;
+   
+}
+
+
+.imageHeader{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    height:150px;
+}
+
+.nomeReceita{
+    text-align: center;
+    color: #ea8685;
+}
+
+.modo{
+    display: inline-block;
+}
+
+.text{
+    text-align:center;
+    display: inline-block;
+    list-style:armenian;
+    color: #fff;
+    
+    align-items: center;
+    box-sizing: 155px;
+    box-shadow: #ea8685;
+}
+
+.textTitlle{
+     font-size: large;
+     color:#ffdd59 ;
+     align-items: center;
+     padding: 2rem;
+}
+
+.list{
+    list-style: none;
+    color:#474a51;
+    padding: 0.90rem;
+    
+
+}
+
+
+
+
+.subTitle{
+    text-align: center;
+    color: #1289A7;
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+
+
+.introText{
+
+    font-size: 1.2rem;
+ text-align: center;
+   color: #474a51;
+}
+
+.credit{
+    font-size: 0.80rem;
+    padding: 0.50rem;
+}
+.card {
+    
+    background-color: #ff5252;
+    gap: 1rem;
+    height: 30%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+    padding-right: 3rem ;
+    
+    
+    
+    
+    
+
+  }
+  
+  .cardImage{
+    height: 200px;
+    width: 250px;
+    justify-content:baseline;
+    border-radius: 60%;
+    align-items: end;
+
+
+
+  }
+
+  #sec-buttons {
+    width: 80%;
+    min-height: 100vh;
+    margin-left: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+#sec-cards{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+button {
+   background-color:#0fb9b1 ;
+   color: rgb(51, 49, 49);
+   border: 0;
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  display: inline-table;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+   
+}
+
+.mainContent{
+    
+    display:list-item;
+    
+}
+
+@media (min-width:1230px){
+    .card{
+        align-items: center;
+        display: flex;
+        gap: 100px;
+    }
+
+
+    
+}
+
+

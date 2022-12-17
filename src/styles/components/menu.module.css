@@ -1,0 +1,61 @@
+.menuContainer{
+
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color:#fa8231 ;
+    
+   
+
+}
+
+.top{
+    display:ruby-base;
+   
+}
+
+.menuImage{
+    height:170px ;
+    width: 170px;
+    display: flex;
+}
+    .menuTittle{
+        display: flex;
+        color: #20bf6b;
+        font-size:50px;
+        align-items: center;
+        justify-content: center;
+        font-size: 400%;
+    }
+.menuItem {
+    list-style: none;
+    font-style:normal ;
+    font-size: large;
+    
+}
+
+.menuLink{
+    text-decoration: none;
+    color: #fff;
+    }
+
+    @media(max-width: 765px) {
+        .menuContainer {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        .top{
+            text-align: justify;
+            align-items: center;
+            display: flex;
+
+        }
+
+        .menuImage{
+            display: flex;
+        }
+      }

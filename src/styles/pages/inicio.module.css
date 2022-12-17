@@ -1,0 +1,45 @@
+.homeTittle {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+  color: #20bf6b;
+  font-size:xx-large;
+ }
+ .textIntro{
+  color:#474a51;
+  text-align: justify;
+  padding: 2rem;
+  
+}
+ 
+ .sub{
+  color: #1289A7;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+ }
+ 
+ .textImg{
+  height: 150px;
+  width: 150px;
+  float:right;
+  padding: 0.80rem;
+  
+ }
+
+ .list{
+ list-style: none;
+ padding: 1rem;
+ }
+
+
+ 
+ @media(max-width: 765px) {
+   .homeTitle {
+     display: flex;
+     flex-direction: column;
+    }
+  }
