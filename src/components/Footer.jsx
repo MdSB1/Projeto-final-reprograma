@@ -3,13 +3,9 @@ import styles from "../styles/components/footer.module.css";
 export function Footer() {
   return (
     <footer className={styles.footerContainer}>
+     
       <div>
-        <p className={styles.footerText}>
-          Feito com ♡ por Mirella de Souza Borges - 2022
-        </p>
-      </div>
-      <div>
-        <p className={styles.cont}>Contatos:</p>
+        
         <nav className={styles.redesSociais}>
           <a
             href="https://www.linkedin.com/in/mirella-de-souza-borges/"
@@ -29,6 +25,11 @@ export function Footer() {
             />
           </a>
         </nav>
+      </div> 
+      <div>
+        <p className={styles.footerText}>
+          Feito com ♡ por Mirella de Souza Borges - 2022
+        </p>
       </div>
     </footer>
   );

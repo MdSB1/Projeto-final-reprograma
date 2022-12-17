@@ -159,7 +159,7 @@ export function Primavera() {
             melancia, melão, nectarina, pêssego, romã, tangerina e uva.
           </li>
 
-          <li className={styles.list}  >
+          <li className={styles.list}>
             <h4 className={styles.categoryList}>Hortaliças</h4>
             Alho-poró, almeirão, brócolis, catalonha, cebolinha, chicória,
             coentro, couve-flor, endívia, erva-doce, espinafre, folha de uva,
@@ -189,14 +189,14 @@ export function Primavera() {
         </div>
         {receita && (
           <div className={styles.card} key={receita.id}>
-            <h1 className={styles.receitaNome}> {receita.e}</h1>
             <img className={styles.cardImage} src={receita.imagem} />
-            <p className={styles.textTitlle}>{receita.receita}</p>
+            <h1 className={styles.receitaNome}> {receita.receita}</h1>
             <p className={styles.text}>{receita.ingredientes}</p>
             <p className={styles.text}>{receita.modoDePreparo}</p>
             <p className={styles.text}>{receita.rendimento}</p>
           </div>
         )}
+            
       </div>
     </>
   );

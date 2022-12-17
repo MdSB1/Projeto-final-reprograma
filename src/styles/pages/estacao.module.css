@@ -34,11 +34,12 @@
     box-shadow: #ea8685;
 }
 
-.textTitlle{
+.receitaNome{
      font-size: large;
      color:#ffdd59 ;
      align-items: center;
      padding: 2rem;
+     text-transform: none ;
 }
 
 .list{

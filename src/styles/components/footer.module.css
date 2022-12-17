@@ -1,9 +1,9 @@
 .footerContainer {
   padding: 2rem;
   background-color:#fa8231 ;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display:row;
+  justify-content: space-between;
+  align-items:center;
 }
 
 .footerText, .cont {
@@ -13,9 +13,9 @@
 }
 
 .redesSociais{
-  align-items: flex-start;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   }
 
 .linkedin{
@@ -35,4 +35,5 @@
   justify-content: space-around;
   align-items: flex-end;
   height:40px;
+  
 }

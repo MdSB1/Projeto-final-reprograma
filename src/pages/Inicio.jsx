@@ -48,7 +48,7 @@ export function Inicio() {
         </p>
         {" "}
         <h3 className={styles.sub}>
-          Como conservas as frutas, hortaliças e vegetais
+          Como higienizar as frutas, hortaliças e vegetais
         </h3>
         <p>
           A higienização de frutas, verduras e legumes é importante para

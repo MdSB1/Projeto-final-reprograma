@@ -172,14 +172,15 @@ export function Outono() {
         </div>
         {receita && (
           <div className={styles.card} key={receita.id}>
-            <h1 className={styles.receitaNome}> {receita.e}</h1>
             <img className={styles.cardImage} src={receita.imagem} />
-            <p className={styles.text}>{receita.receita}</p>
+            <h1 className={styles.receitaNome}> {receita.receita}</h1>
             <p className={styles.text}>{receita.ingredientes}</p>
             <p className={styles.text}>{receita.modoDePreparo}</p>
             <p className={styles.text}>{receita.rendimento}</p>
           </div>
         )}
+            
+        
       </div>
     </>
   );
