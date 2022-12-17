@@ -82,21 +82,15 @@
     padding-bottom: 2rem;
     text-align: justify;
     padding-right: 3rem ;
-    
-    
-    
-    
-    
-
-  }
+    padding-left: 3rem;
+    }
   
   .cardImage{
     height: 200px;
     width: 250px;
     justify-content:baseline;
     border-radius: 60%;
-    align-items: end;
-
+   padding: 1rem;
 
 
   }
