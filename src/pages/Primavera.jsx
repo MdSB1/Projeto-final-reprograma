@@ -42,7 +42,7 @@ const list = [
     ingredientes:
       "Ingredientes: 6 fatias de bacon, óleo, o quanto for necessário para fritar, 1/2 xíacara de fubá, 3 colheres de queijo ralado, 1 colher de sal, 5 tomates verdes médios sem sementes, cortado em rodelas médias",
     modoDePreparo:
-      "Modo de Ppreparo: Numa frigideira, coloque as fatis de bacon, leve ao fogo médio e frite até ficarem bem crocantes. Retine e deixe escorrer sobre papel absorvente e reserve. Numa travessa, junte o fubá, o queijo ralado, o sal e pimenta, e misture. Passe metade das rodelas nessa mistura, pressionando para ficarem bem recobertas. Aqueça o óleo em fogo médio frite até dourarem, e coloque para escorrerem em palem toalha. Povilhe o bacon esfarelado e sirva imediatamente.",
+      "Modo de Ppreparo: Numa frigideira, coloque as fatias de bacon, leve ao fogo médio e frite até ficarem bem crocantes. Retine e deixe escorrer sobre papel absorvente e reserve. Numa travessa, junte o fubá, o queijo ralado, o sal e pimenta, e misture. Passe metade das rodelas nessa mistura, pressionando para ficarem bem recobertas. Aqueça o óleo em fogo médio frite até dourarem, e coloque para escorrerem em palem toalha. Povilhe o bacon esfarelado e sirva imediatamente.",
     rendimento: "Rende: 6 porções",
   },
   {
@@ -58,7 +58,7 @@ const list = [
   },
 
   {
-    receita: "Hambúrger de abobrinha",
+    receita: "Hambúrger de Abobrinha",
     imagem:
       "https://www.culinariapravaler.com/image/postagens/2020/06/hamburguer-de-abobrinha-incrivelmente-delicioso-e-saudavel.htmlwebp",
     ingredientes:
@@ -79,7 +79,7 @@ const list = [
     rendimento: "Rende: 8 porções",
   },
   {
-    receita: "Torta de pêssego",
+    receita: "Crumble de pêssego",
     imagem:
       "https://www.casalmisterio.com/wp-content/uploads/2022/10/21679812_A49zH.jpg",
     ingredientes:

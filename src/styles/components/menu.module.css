@@ -46,6 +46,13 @@
           display: flex;
           flex-direction: column;
           gap: 2rem;
+      
+        }
+        .menuTittle{
+            display: flex;
+            text-align: justify;
+            display: contents;
+            place-items:inherit ;
         }
 
         .top{
