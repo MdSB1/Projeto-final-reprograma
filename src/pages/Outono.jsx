@@ -162,6 +162,7 @@ export function Outono() {
       <div className={styles.receitasContainer}>
         <div className={styles.cardContainer}>
           <h2 className={styles.subTitle}>Receitas</h2>
+          <p className={styles.textOne}>Clique em cima do nome da receita desejada para abri-la:</p>
           {list.map((receita) => {
             return (
               <button onClick={() => setReceita(receita)}>

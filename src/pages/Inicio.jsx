@@ -11,6 +11,9 @@ export function Inicio() {
       />
       <div className={styles.textIntro}>
         <h2 className={styles.sub}>Cozinhando com as Estações</h2>
+
+        <p><p className={styles.textOne}>Clique em cima do nome da receita desejada para abri-la:</p>Problema com não saber o que fazer com aquele vegetal, fruta ou verdura que comprou em grande quantidade que, por causa da estação estava por um preço muito bom na feira?</p>
+        <p>Não se preocupe! Aqui você vai encontrar uma seleção de receitas que vão te ajudar a fazer daquele vegetal, um prato delicioso, fácil e totalmente caseiro, o que faz ele ser um prato muito mais saudável.</p>
         <p>
           Uma boa alimentação é composta por uma variedade de frutas, legumes e
           verduras. Cada alimento se desenvolve melhor em uma determinada época
